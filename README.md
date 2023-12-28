@@ -1,24 +1,14 @@
 <h1 align="center">
-  Gatsby.js Medium Blog
+  gkalmoukis.com
 </h1>
 
 <p align="center">
    <a href="https://gatsbyjs.com" target="_blank">
      <img src="https://img.shields.io/badge/Built%20with-Gatsby-%23614dff?logo=gatsby" />
    </a>
-   <a href="https://reactjs.org/" target="_blank">
-     <img src="https://img.shields.io/badge/Powered%20by-React-%2361dafb?logo=react" />
-   </a>
-   <a>
-     <img src="https://img.shields.io/github/license/BrianRuizy/gatsby-minimal-portfolio?color=red&style=flat" />
-   </a>
 </p>
 
 </div>
-
-![Cover](https://user-images.githubusercontent.com/23439187/177675013-db3b69f2-7c63-4424-9caa-b619c56deffc.png)
-![Cover (1)](https://user-images.githubusercontent.com/23439187/177679060-97c9ec32-475d-4e44-8baa-9cf28e160983.png)
-<p align="center">Don't forget to leave a star ⭐!</p>
 
 ## Features
 
@@ -55,7 +45,7 @@ Simply add your API / endpoint URL to the action attribute of your form and you'
 
 ```jsx
   <form
-    action="https://getform.io/f/faf8d119-4334-4fcc-ae56-2dc4de9cb453"
+    action="https://getform.io/f/<uuid>"
     method="POST"
   >
   ...
@@ -84,16 +74,3 @@ See the [reference guide](https://www.gatsbyjs.com/docs/reference/gatsby-cli/) t
 Adding your own content is super simple with the Jamstack design of the project. You won't need to write any HTML or CSS, just markdown (although you absolutely can if you wish to change the design or add your own features). The MDX posts are found in the `content/posts/` directory. With MDX you can even add react components to your posts as found below.
 
 Visit [mdxjs.com](https://mdxjs.com) to see what other cool things you can implement.
-
-```mdx
-## Example header here
-
-lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem quisquam.
-
-<Alert severity="info">
-  Visit <a href="https://python.org">here</a> for docs and examples.
-</Alert>
-```
-![image](https://user-images.githubusercontent.com/23439187/179371961-520835ab-e4ef-4086-90d7-791e26934732.png)
-
-
