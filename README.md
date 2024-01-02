@@ -73,4 +73,18 @@ See the [reference guide](https://www.gatsbyjs.com/docs/reference/gatsby-cli/) t
 
 Adding your own content is super simple with the Jamstack design of the project. You won't need to write any HTML or CSS, just markdown (although you absolutely can if you wish to change the design or add your own features). The MDX posts are found in the `content/posts/` directory. With MDX you can even add react components to your posts as found below.
 
+Every file should start with post details:
+```
+---
+title: "Cool Git Commands"
+description: "My list of Git commands I find handy to know but hard to remember"
+date: "2020-11-27"
+category: "Blog"
+tags: ["Git", "Version Control", "Developer Tools"]
+pinned: false
+featuredImage: "./banner.jpg"
+---
+```
+
+
 Visit [mdxjs.com](https://mdxjs.com) to see what other cool things you can implement.
