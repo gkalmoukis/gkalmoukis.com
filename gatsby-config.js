@@ -123,10 +123,14 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        id: "GTM-K349R6N",
-        includeInDevelopment: false,
+        trackingIds: [
+          "G-94ZSMD183V",
+        ],
+        pluginConfig: {
+          head: true
+        },
       },
     },
     {
